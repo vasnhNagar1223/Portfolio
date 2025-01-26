@@ -52,7 +52,7 @@ body {
   transition: transform linear;
   mix-blend-mode: difference;
   pointer-events: none;
-  transition: background-image ease 0.5s;
+  transition: background-image ease 0.1s;
   object-fit: cover;
 }
 
@@ -74,11 +74,17 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: arial;
-  background-image: url("https://i.pinimg.com/736x/02/d2/fa/02d2fa8f0045dd1fc9b3abd3516217ed.jpg");
+  background-image: url("https://i.pinimg.com/originals/1b/de/85/1bde855b1bd40f35b92ae6fc2d2173fa.gif");
+  background-position: center;
+  background-size: contain;
 }
 
 .page4 footer {
+  font-weight: 700;
+  font-family: Arial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url("https://i.pinimg.com/originals/5d/a2/21/5da2218f8f31a772206b2c7440368a74.gif");
+  background-image: url("https://i.pinimg.com/originals/ab/38/f7/ab38f7ff5ee625e4c97e81f496c40b9a.gif");
+  background-position: center;
+  background-size: contain;
 }
