@@ -88,3 +88,21 @@ body {
   background-position: center;
   background-size: contain;
 }
+
+/*page5*/
+.page5EDUCATION {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://i.pinimg.com/originals/df/44/98/df4498db45287d0af69104cd267c83db.gif");
+  background-size: contain;
+  display: inline-block;
+}
+
+/*page6*/
+.page6achivements {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://i.pinimg.com/originals/64/db/fb/64dbfb279110e5730b698a752532605b.gif");
+  background-position: center;
+  font-family: "Jersey 15", serif;
+}
