@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.hi {
+  font-family: "Noto Sans Cuneiform";
+}
+.page1Name {
+  font-display: "Noto Serif Japanese";
+  position: relative;
+}
+
+.navText {
+  font-family: "Jersey 15", serif;
+}
+
+.page2Middle {
+  font-family: "Granjon Roman";
+}
+
+.list {
+  columns: 20vw;
+}
+
+.list img {
+  margin-bottom: 20px;
+}
+
+.show {
+  color: cyan;
+  font-size: 10vw;
+  text-align: center;
+  -webkit-text-stroke: 30px;
+}
+
+.cursor {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  transition: transform linear;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: background-image ease 0.5s;
+  object-fit: cover;
+}
+
+.text-div {
+  height: 25px;
+  overflow: hidden;
+}
+
+.elem:hover h1 {
+  transform: translateY(-100%);
+}
+.elem:hover img {
+  opacity: 1;
+  pointer-events: none;
+}
+
+/*page4*/
+.page4Heading {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: arial;
+  background-image: url("https://i.pinimg.com/736x/02/d2/fa/02d2fa8f0045dd1fc9b3abd3516217ed.jpg");
+}
+
+.page4 footer {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://i.pinimg.com/originals/5d/a2/21/5da2218f8f31a772206b2c7440368a74.gif");
+}
